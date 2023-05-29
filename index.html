@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/2a016e7b9d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+    <title>Pornót Posztolsz - Infó</title>
+</head>
+<body>
+    <div class="backr">
+    <nav class="cont">
+        <header>
+            <div class="conth">
+                <img src="tpp_logo.png">
+                <a href="#"><i class="fa-brands fa-discord"></i><h1>Connect</h1></a>
+            </div>
+        </header>
+        <div class="topcont">
+            <div class="logo">
+            <img src="pp_logo.gif">
+            </div>
+          <div class="title">
+          <h1>Pornót Posztolsz</h1>
+          <h2>v1.0</h2>
+          </div>
+          <div class="offon">
+          <i class="fa-sharp fa-solid fa-circle" style="color: #2ecc71;"></i><a>Online</a><h1>3.2K Member</h1>
+          </div>
+        </div>
+        <div class="countdown">
+                <h2>AKTIV</h2>
+           <h1><i class="fa-solid fa-exclamation"></i> Server Restart <i class="fa-solid fa-exclamation"></i></h1>
+           <h3>coming soon</h3>
+           <div class="time">
+            <div>
+                <p id="day">00</p>
+                <span>Days</span>
+            </div>
+            <div>
+                <p id="hour">00</p>
+                <span>Hours</span>
+            </div>
+            <div>
+                <p id="min">00</p>
+                <span>Minutes</span>
+            </div>
+            <div>
+              <p id="sec">00</p>
+              <span>Second</span>
+            </div>
+        </div>
+        </div>
+        <div class="restartmess">
+        <div class="profile">
+           <img src="kove_logo.gif">
+           <h1>Köve</h1>
+           <p>2023.05.29</p>
+        </div>
+        <div class="mess">
+           <h2>Szerver restart!</h2>
+           <p>A szerver történetében elöször megtörénik a legnagyobb restart ami azt fogja jelenteni hogy teljesen új dizájnt és felépitést kap az egész szerver és törlödnek a régi üzentetek!</p>
+           <img src="restart_img.jpg">       
+        </div>
+        </div>
+    </nav>
+    <div class="bottom">
+        <i class="fa-brands fa-discord"></i>
+        <div class="inf">
+            <a href="#">Infó</a>
+            <a href="#">Szabályzat</a>
+        </div>
+        <h1>Desinged by <a href="https://kovecsibence.com/">Köve</a></h1>
+    </div>
+    </div>
+    <script>
+        var countDownDate = new Date("Jun 7,2023 00:00:00").getTime();
+        var x = setInterval(function(){
+            var now = new Date().getTime();
+            var distance = countDownDate - now;
+
+            var day = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hour = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var min = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var sec = Math.floor((distance % (1000 * 60)) / 1000);
+
+            document.getElementById("day").innerHTML = day;
+            document.getElementById("hour").innerHTML = hour;
+            document.getElementById("min").innerHTML = min;
+            document.getElementById("sec").innerHTML = sec;
+        },1000)
+
+    </script>
+</body>
+</html>
