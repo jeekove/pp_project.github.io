@@ -16,6 +16,9 @@ body{
         background-position: 0% 50%;
       }
   }
+nav{
+    padding-bottom: 20vh;
+}
 .conth{
     padding-top: 10px;
     height: 10vh;
@@ -29,7 +32,7 @@ body{
     margin-right: 150px;
 }
 .cont{
-    height: 1700px;
+    height: auto;
     background-image: url(back_linear.svg);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -163,8 +166,8 @@ body{
     text-align: center;
     display: flex;
     justify-content: space-between;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 14%;
+    margin-right: 14%;
 }
 .time div{
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
@@ -181,9 +184,9 @@ body{
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
     margin-left: 30%;
     margin-right: 30%;
-    height: 600px;
     background-color:  #282b30;
     border-radius: 30px;
+    bottom: 150px;
 }
 .profile{
     padding-left: 50px;
@@ -199,18 +202,23 @@ body{
 .profile h1{
     padding-left: 10px;
     text-align: center;
+    font-size: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     color: rgba(255, 217, 0, 0.692);
 }
 .profile p{
+    font-size: 12px;
     margin-left: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     color: gray;
+}
+.mess{
+    padding-bottom: 50px;
 }
 .mess h2{
     padding-left: 50px;
@@ -226,8 +234,8 @@ body{
 }
 .mess img{
     margin-top: 50px;
-    width: auto;
-    height: 300px;
+    max-width: 80%;
+    height: auto;
     display: flex;
     margin-left: auto;
     margin-right: auto;
@@ -262,10 +270,32 @@ body{
 .bottom a{
     color: blue;
 }
-@media (min-width: 320px) and (max-width: 1000px) {
-    .cont{
-        height: 1350px;
+@media (min-width: 320px) and (max-width: 1200px) {
+    .conth{
+        margin-left: 15%;
+        margin-right: 15%;
     }
+    .topcont{
+        margin-top: 50px;
+        margin-left: 15%;
+        margin-right: 15%;
+        height: 400px;
+    }
+    .countdown{
+        height: 200px;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    .restartmess{
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    .time{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+@media (min-width: 320px) and (max-width: 600px) {
     .conth{
         margin-left: 20px;
         margin-right: 20px;
@@ -292,7 +322,7 @@ body{
         margin-top: 50px;
         margin-left: 5%;
         margin-right: 5%;
-        height: 350px;
+        height: 330px;
     }
     .topcont img{
         border: 2px solid #2ecc71;
@@ -320,8 +350,8 @@ body{
         margin-right: 5%;
     }
     .time{
-        margin-left: 5%;
-        margin-right: 5%;
+        margin-left: 10%;
+        margin-right: 10%;
     }
     .time div{
         width: 55px;
@@ -334,7 +364,6 @@ body{
         font-size: 12px;
     }
     .restartmess{
-        height: 450px;
         margin-left: 5%;
         margin-right: 5%;
     }
@@ -361,9 +390,6 @@ body{
         font-size: 15px;
         margin-right: 25px
     }
-    .mess img{
-        height: 150px;
-    }
     .bottom{
         display: block;
         justify-content: center;
@@ -378,5 +404,6 @@ body{
     }
     .bottom h1{
       margin-top: 30px;
+      font-size: 15px;
     }
 }
