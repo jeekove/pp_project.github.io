@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    left: 0;
+    font-family: Verdana, sans-serif;
+}
+body{
+      background: linear-gradient(to right, #ff00e4 0%, #2a00ff);
+      background-size: 200% 100%;
+      animation: mozgas 5s linear infinite alternate;
+  }
+  @keyframes mozgas {
+    0% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+  }
+nav{
+    padding-bottom: 20vh;
+}
+.conth{
+    padding-top: 10px;
+    height: 10vh;
+    text-align: center;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px; 
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.cont{
+    height: 80vh;
+    background-image: url(back_linear.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+}
+.conth img{
+    border: 2px solid #282b30;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+}
+.conth i{
+    display: none;
+}
+.conth a{
+    color: aliceblue;
+    font-size: 13px;
+    padding: 15px 35px;
+    border-radius: 20px;
+    text-decoration: none;
+    background-color: #7289da;
+}
+.conth a:hover{
+    background: none;
+    padding: 13px 33px;
+    border: 2px solid aliceblue;
+}
+.countdown {
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    margin-top: 10%;
+    margin-left: 30%;
+    margin-right: 30%;
+    height: 250px;
+    border-radius: 36px;
+    background-color:  #282b30;
+    border-radius: 30px;
+  }
+.countdown h1{
+    color: aliceblue;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 40px;
+}
+.countdown h3{
+    text-align: center;
+    color: #828a9b;
+    font-size: 15px;
+}
+.time{
+    color: white;
+    margin-top: 60px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 14%;
+    margin-right: 14%;
+}
+.time div{
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    height: 80px;
+    width: 100px;
+    background-color:  #31343a;
+    border-radius: 10px;
+}
+.time p{
+    margin-top: 13px;
+    font-size: 30px;
+}
+.bottom{
+    height: 20vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-left: 20%;
+    padding-right: 10%;
+}
+.bottom i{
+    color: white;
+    font-size: 30px;
+}
+.bottom h1{
+    font-size: 20px;
+    color: white;
+}
+.bottom div a{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    color: gray;
+    text-align: center;
+    display: block;
+}
+.bottom a{
+    color: blue;
+}
+
+
+
+@media (min-width: 320px) and (max-width: 1200px) {
+    .conth{
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    .countdown{
+        margin-top: 20%;
+        height: 250px;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    .time{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+
+
+@media (min-width: 320px) and (max-width: 600px) {
+    .conth{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .conth img{
+        height: 50px;
+        width: 50px;
+    }
+    .conth i{
+        text-align: center;
+        display: block;
+        font-size: 20px;
+    }
+    .conth h1{
+        display: none;
+    }
+    .conth a{
+        padding: 15px 17px;
+    }
+    .conth a:hover{
+        padding: 13px 15px;
+    }
+    .countdown{
+        margin-top: 50%;
+        height: 200px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .time{
+        margin-top: 40px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .time div{
+        width: 60px;
+        height: 60px;
+    }
+    .time p{
+        font-size: 20px;
+        margin-top: 9px;
+    }
+    .time span{
+        font-size: 9px;
+    }
+    .bottom{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-left: 0;
+        padding-right: 0;
+        height: 30vh;
+    }
+    .bottom div{
+           margin-top: 30px;
+    }
+    .bottom h1{
+      margin-top: 30px;
+      font-size: 15px;
+    }
+}
