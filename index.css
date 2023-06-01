@@ -171,12 +171,13 @@ nav{
 }
 .time div{
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
-    height: 70px;
+    height: 80px;
     width: 80px;
     background-color:  #31343a;
     border-radius: 10px;
 }
 .time p{
+    font-size: 30px;
     margin-top: 13px;
 }
 .restartmess{
@@ -282,7 +283,7 @@ nav{
         height: 400px;
     }
     .countdown{
-        height: 200px;
+        height: 230px;
         margin-left: 15%;
         margin-right: 15%;
     }
@@ -358,6 +359,7 @@ nav{
         height: 60px;
     }
     .time p{
+        font-size: 20px;
         margin-top: 9px;
     }
     .time span{
