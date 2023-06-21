@@ -430,6 +430,21 @@ nav{
         margin-left: 5%;
         margin-right: 5%;
     }
+    .profiler{
+        padding-left: 25px;
+        padding-top: 25px;
+    }
+    .profiler img{
+        height: 35px;
+        width: 35px;
+    }
+    .profiler h1{
+        font-size: 18px;
+    }
+    .profiler p{
+        padding-top: 14px;
+        font-size: 10px;
+    }
     .profile{
         padding-left: 25px;
         padding-top: 25px;
@@ -448,6 +463,7 @@ nav{
     .mess h2{
         padding-left: 25px;
         font-size: 17px;
+        max-width: 330px;
     }
     .mess p{
         padding-left: 25px;
