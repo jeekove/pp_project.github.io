@@ -1,0 +1,350 @@
+*{
+    margin: 0;
+    left: 0;
+    font-family: Verdana, sans-serif;
+}
+body{
+      background: linear-gradient(to right, #ff00e4 0%, #2a00ff);
+      background-size: 200% 100%;
+      animation: mozgas 5s linear infinite alternate;
+  }
+  @keyframes mozgas {
+    0% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+  }
+nav{
+    padding-bottom: 20vh;
+}
+.conth{
+    padding-top: 10px;
+    height: 10vh;
+    text-align: center;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px; 
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.cont{
+    height: auto;
+    background-image: url(back_linear.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+}
+.conth img{
+    border: 2px solid #282b30;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+}
+.conth i{
+    display: none;
+}
+.conth a{
+    color: aliceblue;
+    font-size: 13px;
+    padding: 15px 35px;
+    border-radius: 20px;
+    text-decoration: none;
+    background-color: #7289da;
+}
+.conth a:hover{
+    background: none;
+    padding: 13px 33px;
+    border: 2px solid aliceblue;
+}
+.maintitle h1{
+    color: aliceblue;
+    text-align: center;
+    padding: 30px;
+    font-size: 40px;
+
+}
+.mobileinfocube{
+    display: none;
+}
+.infocube{
+    justify-content: space-between;
+    color: white;
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color:  #282b30;
+    border-radius: 30px;
+    padding-bottom: 50px;
+}
+.infocube h1{
+    padding-top: 30px;
+    text-align: center;
+}
+.infocube h2{
+    font-size: 20px;
+    margin-left: 60px;
+}
+.infocube p{
+    margin-top: 20px;
+    margin-left: 70px;
+    max-width: 650px;
+}
+.infocube h3{
+    margin-top: 10px;
+    color: rgb(190, 190, 190);
+    font-size: 15px;
+    margin-left: 80px;
+}
+.infocube i{
+    font-size: 20px;
+    margin-right: 10px;
+    background-color: rgb(63, 67, 75);
+    width: 25px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+.infocube span{
+    color: white;
+}
+.text{
+    width: 100%;
+}
+.lvlup{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 20%;
+}
+.lvlup img{
+    width: 90%;
+    height: auto;
+    margin-left: 20%;
+}
+.lvlup .text{
+    margin: auto;
+    max-width: 50%;
+    text-align: left;
+}
+.helping{
+    margin-top: 50px;
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.helping img{
+    width: 80%;
+    height: auto;
+}
+.helping .text{
+    margin: auto;
+    width: 900px;
+    text-align: left;
+}
+.warn p{
+    text-align: center;
+    font-size: 30px;
+    color: #ffff;
+    padding: 30px;
+
+}
+.bottom{
+    height: 20vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-left: 20%;
+    padding-right: 10%;
+}
+.bottom i{
+    color: white;
+    font-size: 30px;
+}
+.bottom h1{
+    font-size: 20px;
+    color: white;
+}
+.bottom div a{
+    margin-top: 20px;
+    margin-bottom: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    color: gray;
+    text-align: center;
+    display: block;
+}
+.bottom a{
+    color: blue;
+}
+.bottom h5{
+    color: #ffff;
+    background-color: #ff00e4;
+    width: 100px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+}
+@media (min-width: 320px) and (max-width: 1200px) {
+    .conth{
+        margin-left: 15%;
+        margin-right: 15%;
+    }.infocube{
+        justify-content: space-between;
+        color: white;
+        margin-left: 100px;
+        margin-right: 100px;
+        background-color:  #282b30;
+        border-radius: 30px;
+        padding-bottom: 50px;
+    }
+    .infocube h1{
+        padding-top: 30px;
+        text-align: center;
+        padding: 30px;
+    }
+    .infocube h2{
+        font-size: 20px;
+    }
+    .infocube p{
+        margin-top: 20px;
+        max-width: 650px;
+    }
+    .infocube h3{
+        margin-top: 10px;
+        color: rgb(190, 190, 190);
+        font-size: 15px;
+        margin-left: 80px;
+    }
+    .infocube i{
+        font-size: 20px;
+        margin-right: 10px;
+        background-color: rgb(63, 67, 75);
+        width: 25px;
+        text-align: center;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    .lvlup{
+        display: flex;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .lvlup img{
+        width: 50%;
+        height: auto;
+    }
+    .helping{
+        margin-top: 50px;
+        display: flex;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .helping img{
+        width: 90%;
+        height: auto;
+    }
+    .helping .text{
+        margin: auto;
+        width: 900px;
+        text-align: left;
+    }
+}
+@media (min-width: 320px) and (max-width: 900px) {
+    .conth{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .conth img{
+        height: 50px;
+        width: 50px;
+    }
+    .conth i{
+        text-align: center;
+        display: block;
+        font-size: 20px;
+    }
+    .conth h4{
+        display: none;
+    }
+    .conth a{
+        padding: 15px 17px;
+    }
+    .conth a:hover{
+        padding: 13px 15px;
+    }
+    .maintitle h1{
+        font-size: 20px;
+    }
+    .infocube{
+        display: none;
+    }
+    .warn1{
+        display: none;
+    }
+    .mobileinfocube{
+        display: inline-block;
+        color: white;
+        margin-left: 20px;
+        margin-right: 20px;
+        background-color:  #282b30;
+        border-radius: 30px;
+    }
+    .mobileinfocube h1{
+        text-align: center;
+        padding: 20px;
+    }
+    .mobileinfocube h2{
+        font-size: 16px;
+    }
+    .mobileinfocube p{
+        margin-top: 20px;
+        max-width: 650px;
+        font-size: 14px;
+    }
+    .mobileinfocube i{
+        font-size: 12px;
+        margin-right: 10px;
+        background-color: rgb(63, 67, 75);
+        text-align: center;
+        padding: 5px 5px;
+        border-radius: 5px;
+    }
+    .mlvlup{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .mlvlup img{
+        margin: auto;
+        width: 100%;
+        height: auto;
+    }
+    .mhelping{
+        margin-top: 50px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .mhelping img{
+        width: 80%;
+        height: auto;
+        margin-left: 20px;
+    }
+    .bottom{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-left: 0;
+        padding-right: 0;
+        height: 30vh;
+    }
+    .bottom div{
+           margin-top: 30px;
+    }
+    .bottom h1{
+      margin-top: 30px;
+      font-size: 15px;
+    }
+}

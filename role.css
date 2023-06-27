@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    left: 0;
+    font-family: Verdana, sans-serif;
+}
+body{
+      background: linear-gradient(to right, #ff00e4 0%, #2a00ff);
+      background-size: 200% 100%;
+      animation: mozgas 5s linear infinite alternate;
+  }
+  @keyframes mozgas {
+    0% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+  }
+nav{
+    padding-bottom: 20vh;
+}
+.conth{
+    padding-top: 10px;
+    height: 10vh;
+    text-align: center;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px; 
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.cont{
+    height: auto;
+    background-image: url(back_linear.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+}
+.conth img{
+    border: 2px solid #282b30;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+}
+.conth i{
+    display: none;
+}
+.conth a{
+    color: aliceblue;
+    font-size: 13px;
+    padding: 15px 35px;
+    border-radius: 20px;
+    text-decoration: none;
+    background-color: #7289da;
+}
+.conth a:hover{
+    background: none;
+    padding: 13px 33px;
+    border: 2px solid aliceblue;
+}
+.rolecube{
+    color: white;
+    margin-left: 250px;
+    margin-right: 250px;
+    background-color:  #282b30;
+    border-radius: 30px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+.rolecube h1{
+    font-size: 30px;
+    padding: 50px;
+    text-align: center;
+}
+.vigyazz{
+    margin-top: 50px;
+    margin-left: 15px;
+}
+.okes{
+    margin-top: 50px;
+}
+.textrule{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.textrule h2{
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+.textrule div h3{
+    padding: 5px;
+}
+.textrule div i{
+    padding: 0px 10px;
+    font-size: 25px;
+}
+.textrule div p{
+    color: rgb(218, 218, 218);
+    margin-left: 50px;
+}
+.bottom{
+    height: 20vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-left: 20%;
+    padding-right: 10%;
+}
+.bottom i{
+    color: white;
+    font-size: 30px;
+}
+.bottom h1{
+    font-size: 20px;
+    color: white;
+}
+.bottom div a{
+    margin-top: 20px;
+    margin-bottom: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    color: gray;
+    text-align: center;
+    display: block;
+}
+.bottom h5{
+    color: #ffff;
+    background-color: #ff00e4;
+    width: 100px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+}
+.bottom a{
+    color: blue;
+}
+@media (min-width: 320px) and (max-width: 1200px) {
+    .conth{
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    .rolecube{
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+}
+@media (min-width: 320px) and (max-width: 900px) {
+    .conth{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .conth img{
+        height: 50px;
+        width: 50px;
+    }
+    .conth i{
+        text-align: center;
+        display: block;
+        font-size: 20px;
+    }
+    .conth h4{
+        display: none;
+    }
+    .conth a{
+        padding: 15px 17px;
+    }
+    .conth a:hover{
+        padding: 13px 15px;
+    }
+    .rolecube{
+        margin-left: 20px;
+        margin-right: 20px;
+    }.vigyazz{
+        margin-left: 6px;
+    }
+    .rolecube h1{
+       font-size: 25px;
+    }
+    .textrule h2{
+        font-size: 13px;
+    }
+    .textrule div h3{
+        font-size: 14px;
+    }
+    .textrule div i{
+        font-size: 15px;
+    }
+    .textrule div p{
+        margin-left: 50px;
+        font-size: 12px;
+    }
+    .bottom{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-left: 0;
+        padding-right: 0;
+        height: 30vh;
+    }
+    .bottom div{
+           margin-top: 30px;
+    }
+    .bottom h1{
+      margin-top: 30px;
+      font-size: 15px;
+    }
+}
