@@ -3,10 +3,11 @@
     left: 0;
     font-family: Verdana, sans-serif;
 }
-body{
-      background: linear-gradient(to right, #ff00e4 0%, #2a00ff);
-      background-size: 200% 100%;
-      animation: mozgas 5s linear infinite alternate;
+.backr{
+      background-image: url(backround.jpg);
+      background-position: center center;
+      background-attachment: fixed;
+      background-repeat: no-repeat; background-size: cover;
   }
   @keyframes mozgas {
     0% {
@@ -19,6 +20,9 @@ body{
 nav{
     padding-bottom: 20vh;
 }
+
+/*--------------------------------TopHeader-------------------------------*/
+
 .conth{
     padding-top: 10px;
     height: 10vh;
@@ -60,6 +64,9 @@ nav{
     padding: 13px 33px;
     border: 2px solid aliceblue;
 }
+
+/*--------------------------------MainCubeTitle-------------------------------*/
+
 .topcont{
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
     margin-left: 30%;
@@ -75,7 +82,7 @@ nav{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border: 3px solid #fffb00;
+    border: 3px solid #2ecc71;
     padding: 5px 5px;
     border-radius: 50%;
     height: 150px;
@@ -104,7 +111,7 @@ nav{
 }
 .offon a{
     text-align: center;
-    color: #fffb00;
+    color: #2ecc71;
     margin-left: 15px
 }
 .offon h1{
@@ -116,6 +123,9 @@ nav{
     font-size: 18px;
     margin-left: 40px;
 }
+
+/*--------------------------------RertartMess-------------------------------*/
+
 .restartmess{
     margin-top: 50px;
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
@@ -125,40 +135,13 @@ nav{
     border-radius: 30px;
     bottom: 150px;
 }
-.profiler{
+.profile{
     padding-left: 50px;
     padding-top: 50px;
     display: flex;
 }
-.profiler img{
-    border: 2px solid gray;
-    height: 50px;
-    width: 50px;
-    border-radius: 30px;
-}
-.profiler h1{
-    padding-left: 10px;
-    text-align: center;
-    font-size: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: rgba(255, 217, 0, 0.692);
-}
-.profiler p{
-    font-size: 12px;
-    margin-left: 10px;
-    display: flex;
-    padding-top: 22px;
-    color: gray;
-}
-.profile{
-    padding-left: 50px;
-    padding-top: 30px;
-    display: flex;
-}
 .profile img{
-    border: 2px solid gray;
+    border: 2px solid rgba(255, 217, 0, 0.692);
     height: 50px;
     width: 50px;
     border-radius: 30px;
@@ -204,8 +187,9 @@ nav{
     border-radius: 30px;
 }
 
+/*--------------------------------RertartStarting-------------------------------*/
 
-.restartmessfinsh{
+.restartstarting{
     margin-top: 50px;
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
     margin-left: 30%;
@@ -214,6 +198,22 @@ nav{
     border-radius: 30px;
     bottom: 150px;
 }
+
+/*--------------------------------RertartFinish-------------------------------*/
+
+.restartfinish{
+    margin-top: 50px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    margin-left: 30%;
+    margin-right: 30%;
+    background-color:  #282b30;
+    border-radius: 30px;
+    bottom: 150px;
+}
+
+
+/*--------------------------------Rertarting-------------------------------*/
+
 .restarting{
     margin-top: 50px;
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
@@ -238,6 +238,8 @@ nav{
 .restarting i{
     padding-right: 20px;
 }
+
+/*--------------------------------Bottom-------------------------------*/
 
 .bottom{
     height: 20vh;
@@ -268,6 +270,13 @@ nav{
 .bottom a{
     color: blue;
 }
+
+/*--------------------------------------------------------------*/ 
+
+
+
+
+
 @media (min-width: 320px) and (max-width: 1200px) {
     .conth{
         margin-left: 15%;
@@ -280,15 +289,17 @@ nav{
         height: 400px;
     }
     .countdown{
-        height: 230px;
-        margin-left: 15%;
-        margin-right: 15%;
+
     }
     .restartmess{
         margin-left: 15%;
         margin-right: 15%;
     }
-    .restartmessfinsh{
+    .restartfinish{
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    .restartstarting{
         margin-left: 15%;
         margin-right: 15%;
     }
@@ -374,7 +385,11 @@ nav{
         margin-left: 5%;
         margin-right: 5%;
     }
-    .restartmessfinsh{
+    .restartstarting{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .restartfinish{
         margin-left: 5%;
         margin-right: 5%;
     }
@@ -440,13 +455,12 @@ nav{
         text-align: center;
         padding-left: 0;
         padding-right: 0;
-        height: 30vh;
+        height: auto;
     }
-    .bottom div{
-           margin-top: 30px;
+    .inf{
+        padding: 20px;
     }
     .bottom h1{
-      margin-top: 30px;
-      font-size: 15px;
+      padding: 30px; 
     }
 }

@@ -17,71 +17,64 @@
                 <a href="https://discord.gg/BWkrm5SQg9"><i class="fa-brands fa-discord"></i><h4>Connect</h4></a>
             </div>
         </header>
-        <div class="maintitle">
-            <h1>Amit a szerveről tudni kell!</h1>
+        <div class="infos">
+        <div class="ask">
+          <h1>Gyakran ismételt kérdések.</h1>
+          <div class="asks">
+            <h4><a onclick="scrollToLevelup()">Hogyan lépek szintet?</a></h4>
+            <h5>(Katt a szövegre)</h5>
+            <h4><a onclick="scrollToLevelupInfo()">Mi kell ahoz hogy szintet lépjek?</a></h4>
+            <h5>(Katt a szövegre)</h5>
+            <h4><a onclick="scrollToHelping()">Hogyan kérhetek segitséget?</a></h4>
+            <h5>(Katt a szövegre)</h5>
+          </div>
         </div>
-        <div class="infocube">
-          <div>
-            <div>
-                <h1>Szintlépés</h1>
-                <div class="lvlup"> 
-                  <div class="text">
-                    <h2>Hogyan tudsz szintet lépni a szerveren?</h2>
+        <div class="levelup" id="levelup-section">
+            <h1>Szintlépés</h1>
+              <div class="lvlup"> 
+                <div class="text">
+                  <h2>Hogyan tudsz szintet lépni a szerveren?</h2>
                       <p><i class="fa-solid fa-user-group"></i>Hivd meg a barátaidat a szerverre hogy szintet lépj!</p>
                       <p><i class="fa-solid fa-comment"></i>Lépj szintet aktivitással a szerveren, beszélgess, küldj be tartalmakat.</p>
                       <p><i class="fa-solid fa-arrow-right fa-rotate-270"></i>Boostold fel a szervert amivel elérheted a legnagyobb szintet a szerveren!</p>
-                  </div>
-                  <div>
+                </div>
+                <div>
                     <img src="lvlupilust.png">
+                </div>
+              </div>
+        </div>
+        <div class="levelupinfo" id="levelupinfo-section">
+            <div class="lvlupinfo"> 
+              <div class="text">
+                <h2>Mi kell ahoz hogy szintet lépj?</h2>
+                    <h3>Szintlépés text-ben</h3>
+                    <p><span>1. szint</span> -> level <span>3</span>-nak kell lenned a szerveren!</p>
+                    <p><span>2. szint</span> -> level <span>6</span>-nak kell lenned a szerveren!</p>
+                    <p><span>3. szint</span> -> level <span>14</span>-nek kell lenned a szerveren!</p>
+                    <p><span>4. szint</span> -> level <span>20</span>-nak kell lenned a szerveren!</p>
+                    <h3>Szintlépés meghivással</h3>
+                    <p><span>5</span> ember meghivássával megkapod a(z) <span>1. szintet</span></p>
+                    <p><span>10</span> ember meghivássával megkapod a(z) <span>2. szintet</span></p>
+                    <p><span>15</span> ember meghivássával megkapod a(z) <span>3. szintet</span></p>
+                    <p><span>25</span> ember meghivássával megkapod a(z) <span>4. szintet</span></p>
+                    <h3>Szintlépés Boostal</h3>
+                    <p>Egyszerüen boostold fel a szervert akár 1 boostal és megkapod a 4. szintet!</p>
+              </div>
+            </div>
+        </div>
+        <div class="helping" id="helping-section">
+            <h1>Segitségkérés</h1>
+              <div class="help">
+                  <div class="text">
+                    <h2>Hogyan tudsz segitséget kérni a szerveren?</h2>
+                        <p><i class="fa-solid fa-pen"></i>Irj segitségkérelmet a support szobában.Megprobálunk minnél hamarabb válaszolni rá és segiteni.</p>
+                        <p><i class="fa-solid fa-exclamation"></i>Pingeld meg a @help rangot ott ahol a baj van, megprobálunk minnél hamarabb ott lenni és orvosolni a problémát.</p>
                   </div>
-                </div>
-                <h1>Segitségkérés</h1>
-                <div class="helping">
-                    <div>
-                        <img src="helpilust.png">
-                    </div> 
-                    <div class="text">
-                        <h2>Hogyan tudsz segitséget kérni a szerveren?</h2>
-                          <p><i class="fa-solid fa-pen"></i>Irj segitségkérelmet a ticket szobában.Megprobálunk minnél hamarabb válaszolni rá.</p>
-                          <p><i class="fa-solid fa-exclamation"></i>Pingeld meg a @help rangot ott ahol a baj van, megprobálunk minnél hamarabb ott lenni és orvosolni a problémát.</p>
-            </div>
-            </div>
-        </div>
+              </div>
         </div>
         <div class="warn">
-          <p>Az infók bővülhetnek!</p>
-      </div>
-        </div>
-        <div class="mobileinfocube">
-            <div>
-              <div>
-                  <h1>Szintlépés</h1>
-                  <div class="mlvlup"> 
-                    <div class="mtext">
-                      <h2>Hogyan tudsz szintet lépni a szerveren?</h2>
-                        <p><i class="fa-solid fa-user-group"></i>Hivd meg a barátaidat a szerverre hogy szintet lépj!</p>
-                        <p><i class="fa-solid fa-comment"></i>Lépj szintet aktivitással a szerveren, beszélgess, küldj be tartalmakat.</p>
-                        <p><i class="fa-solid fa-arrow-right fa-rotate-270"></i>Boostold fel a szervert amivel elérheted a legnagyobb szintet a szerveren!</p>
-                    </div>
-                    <div>
-                      <img src="lvlupilust.png">
-                    </div>
-                </div>
-                  <h1>Segitségkérés</h1>
-                  <div class="mhelping">
-                      <div class="mtext">
-                          <h2>Hogyan tudsz segitséget kérni a szerveren?</h2>
-                            <p><i class="fa-solid fa-pen"></i>Irj segitségkérelmet a ticket szobában.Megprobálunk minnél hamarabb válaszolni rá.</p>
-                            <p><i class="fa-solid fa-exclamation"></i>Pingeld meg a @help rangot ott ahol a baj van, megprobálunk minnél hamarabb ott lenni és orvosolni a problémát.</p>
-              </div>
-              <div>
-                <img src="helpilust.png">
-            </div> 
-              </div>
-          </div>
-        </div>
-        <div class="warn">
-            <p>Az infók bővülhetnek!</p>
+            <h1>Figyelem!</h1>
+            <p>Az infók bövülhetnek kicsit és nagyot, tehát ha közeljövőben valamilyen kérdésed lenne akkor elöszőr látogasd meg ezt a weboldalt.</p>
         </div>
         </div>
         </nav>
@@ -90,9 +83,30 @@
             <a href="https://discord.gg/BWkrm5SQg9"><i class="fa-brands fa-discord"></i></a>
             <div class="inf">
               <a href="index.html"><h5>Viszza</h5></a>
-                <a href="role.html">Szabályzat</a>
+                <a href="rule.html">Szabályzat</a>
             </div>
             <h1>Desinged by <a href="#">Köve</a></h1>
         </div>
+        <script>
+              function scrollToLevelup() {
+              var contactSection = document.getElementById("levelup-section");
+                  contactSection.classList.add("show");
+                  contactSection.scrollIntoView({ behavior: 'smooth' });
+             }
+        </script>
+        <script>
+          function scrollToLevelupInfo() {
+          var contactSection = document.getElementById("levelupinfo-section");
+              contactSection.classList.add("show");
+              contactSection.scrollIntoView({ behavior: 'smooth' });
+         }
+        </script>
+        <script>
+              function scrollToHelping() {
+              var contactSection = document.getElementById("helping-section");
+                  contactSection.classList.add("show");
+                  contactSection.scrollIntoView({ behavior: 'smooth' });
+             }
+        </script>        
 </body>
 </html>
