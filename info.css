@@ -3,11 +3,12 @@
     left: 0;
     font-family: Verdana, sans-serif;
 }
-body{
-      background: linear-gradient(to right, #ff00e4 0%, #2a00ff);
-      background-size: 200% 100%;
-      animation: mozgas 5s linear infinite alternate;
-  }
+.backr{
+    background-image: url(backround.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat; background-size: cover;
+}
   @keyframes mozgas {
     0% {
         background-position: 100% 50%;
@@ -19,6 +20,8 @@ body{
 nav{
     padding-bottom: 20vh;
 }
+/*--------------------------------TopHeader-------------------------------*/
+
 .conth{
     padding-top: 10px;
     height: 10vh;
@@ -60,96 +63,128 @@ nav{
     padding: 13px 33px;
     border: 2px solid aliceblue;
 }
-.maintitle h1{
-    color: aliceblue;
-    text-align: center;
-    padding: 30px;
-    font-size: 40px;
 
-}
-.mobileinfocube{
-    display: none;
-}
-.infocube{
-    justify-content: space-between;
-    color: white;
-    margin-left: 150px;
-    margin-right: 150px;
+.infos{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    margin-left: 250px;
+    margin-right: 250px;
     background-color:  #282b30;
     border-radius: 30px;
-    padding-bottom: 50px;
 }
-.infocube h1{
-    padding-top: 30px;
+
+/*--------------------------------AskAgain-------------------------------*/
+
+.ask{
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: center;
+    color: #ffff;
+}
+.ask h1{
+    padding: 100px;
+    font-size: 45px;
+}
+.asks h4{
+    padding-top: 20px;
+    font-size: 20px;
+}
+.ask h5{
+    padding-top: 3px;
+    color: #a0a0a0;
+}
+/*--------------------------------LevelUp-------------------------------*/
+
+.levelup{
+    margin-left: 150px;
+    margin-right: 150px;
+    color: #ffff;
+    margin-top: 100px;
     text-align: center;
 }
-.infocube h2{
-    font-size: 20px;
-    margin-left: 60px;
+.levelup h1{
+    padding: 50px;
+    font-size: 30px;
 }
-.infocube p{
-    margin-top: 20px;
-    margin-left: 70px;
-    max-width: 650px;
+.levelup h2{
+    padding: 20px;
 }
-.infocube h3{
-    margin-top: 10px;
-    color: rgb(190, 190, 190);
-    font-size: 15px;
-    margin-left: 80px;
+.levelup p{
+    padding: 10px;
 }
-.infocube i{
-    font-size: 20px;
-    margin-right: 10px;
-    background-color: rgb(63, 67, 75);
-    width: 25px;
-    text-align: center;
+.levelup i{
+    background-color: #434850;
     padding: 10px;
     border-radius: 10px;
-}
-.infocube span{
-    color: white;
-}
-.text{
-    width: 100%;
-}
-.lvlup{
-    display: flex;
-    margin-left: 10%;
-    margin-right: 20%;
+    margin-right: 20px;
 }
 .lvlup img{
-    width: 90%;
+    width: 50%;
     height: auto;
-    margin-left: 20%;
 }
-.lvlup .text{
-    margin: auto;
-    max-width: 50%;
-    text-align: left;
+
+/*--------------------------------LevelUpInfo-------------------------------*/
+
+.lvlupinfo{
+    margin-left: 150px;
+    margin-right: 150px;
+    color: #ffff;
+    margin-top: 100px;
+    text-align: center;
 }
+.lvlupinfo h2{
+    padding: 20px;
+}
+.lvlupinfo h3{
+    padding: 10px;
+}
+.lvlupinfo p{
+    color: rgb(219, 219, 219);
+    padding: 10px;
+}
+.lvelupinfo span{
+    color: #ffff;
+}
+
+/*--------------------------------Helping-------------------------------*/
+
 .helping{
-    margin-top: 50px;
-    display: flex;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 150px;
+    margin-right: 150px;
+    color: #ffff;
+    margin-top: 100px;
+    text-align: center;
 }
-.helping img{
-    width: 80%;
-    height: auto;
+.helping h1{
+    padding: 20px;
 }
-.helping .text{
-    margin: auto;
-    width: 900px;
-    text-align: left;
+.helping p{
+    color: rgb(219, 219, 219);
+    padding: 10px;
+}
+.helping i{
+    background-color: #434850;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+/*--------------------------------Warn------------------------------*/
+
+.warn{
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: center;
+    color: #ffff;
+}
+.warn h1{
+    padding-top: 50px;
 }
 .warn p{
-    text-align: center;
-    font-size: 30px;
-    color: #ffff;
-    padding: 30px;
-
+    padding-top: 20px;
+    padding-bottom: 100px;
 }
+/*--------------------------------Bottom-------------------------------*/
+
 .bottom{
     height: 20vh;
     background-color: black;
@@ -180,8 +215,8 @@ nav{
     color: blue;
 }
 .bottom h5{
-    color: #ffff;
-    background-color: #ff00e4;
+    color: black;
+    background-color:#ffff;
     width: 100px;
     padding: 10px;
     margin: auto;
@@ -191,65 +226,24 @@ nav{
     .conth{
         margin-left: 15%;
         margin-right: 15%;
-    }.infocube{
-        justify-content: space-between;
-        color: white;
+    }
+    .infos{
         margin-left: 100px;
         margin-right: 100px;
-        background-color:  #282b30;
         border-radius: 30px;
-        padding-bottom: 50px;
     }
-    .infocube h1{
-        padding-top: 30px;
-        text-align: center;
-        padding: 30px;
-    }
-    .infocube h2{
-        font-size: 20px;
-    }
-    .infocube p{
-        margin-top: 20px;
-        max-width: 650px;
-    }
-    .infocube h3{
-        margin-top: 10px;
-        color: rgb(190, 190, 190);
-        font-size: 15px;
-        margin-left: 80px;
-    }
-    .infocube i{
-        font-size: 20px;
-        margin-right: 10px;
-        background-color: rgb(63, 67, 75);
-        width: 25px;
-        text-align: center;
-        padding: 10px;
-        border-radius: 10px;
-    }
-    .lvlup{
-        display: flex;
-        margin-left: 0px;
-        margin-right: 0px;
+    .ask h1{
+        padding: 70px;
+      font-size: 30px;
     }
     .lvlup img{
-        width: 50%;
+        width: 80%;
         height: auto;
+    }.levelup h2{
+        font-size: 20px;
     }
-    .helping{
-        margin-top: 50px;
-        display: flex;
-        margin-left: 5%;
-        margin-right: 5%;
-    }
-    .helping img{
-        width: 90%;
-        height: auto;
-    }
-    .helping .text{
-        margin: auto;
-        width: 900px;
-        text-align: left;
+    .helping h2{
+        font-size: 20px;
     }
 }
 @media (min-width: 320px) and (max-width: 900px) {
@@ -278,59 +272,107 @@ nav{
     .maintitle h1{
         font-size: 20px;
     }
-    .infocube{
-        display: none;
-    }
-    .warn1{
-        display: none;
-    }
-    .mobileinfocube{
-        display: inline-block;
-        color: white;
+    .infos{
         margin-left: 20px;
         margin-right: 20px;
-        background-color:  #282b30;
-        border-radius: 30px;
     }
-    .mobileinfocube h1{
-        text-align: center;
-        padding: 20px;
+    .ask{
+        margin-left: 50px;
+        margin-right: 50px;
     }
-    .mobileinfocube h2{
+    .ask h1{
+        padding: 50px;
+        font-size: 25px;
+    }
+    .asks h4{
+        padding-top: 20px;
         font-size: 16px;
     }
-    .mobileinfocube p{
-        margin-top: 20px;
-        max-width: 650px;
-        font-size: 14px;
-    }
-    .mobileinfocube i{
+    .ask h5{
         font-size: 12px;
+        padding-top: 3px;
+        color: #a0a0a0;
+    }
+
+
+    .levelup{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .levelup h1{
+        padding: 30px;
+        font-size: 25px;
+    }
+    .levelup h2{
+        padding: 10px;
+        font-size: 17px;
+    }
+    .levelup p{
+        padding: 10px;
+        font-size: 15px;
+    }
+    .levelup i{
+        background-color: #434850;
+        padding: 7px;
+        border-radius: 10px;
         margin-right: 10px;
-        background-color: rgb(63, 67, 75);
-        text-align: center;
-        padding: 5px 5px;
-        border-radius: 5px;
+        font-size: 15px;
     }
-    .mlvlup{
-        margin-left: 10%;
-        margin-right: 10%;
-    }
-    .mlvlup img{
-        margin: auto;
+    .lvlup img{
         width: 100%;
         height: auto;
     }
-    .mhelping{
-        margin-top: 50px;
-        margin-left: 10%;
-        margin-right: 10%;
-    }
-    .mhelping img{
-        width: 80%;
-        height: auto;
+
+
+
+
+    .lvlupinfo{
         margin-left: 20px;
+        margin-right: 20px;
     }
+    .lvlupinfo h2{
+        padding: 20px;
+        font-size: 20px;
+    }
+    .lvlupinfo h3{
+        padding: 10px;
+        font-size: 18px;
+    }
+    .lvlupinfo p{
+        padding: 5px;
+        font-size: 15px;
+    }
+    .helping{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .helping h1{
+        padding: 20px;
+        font-size: 20px;
+    }
+    .helping h2{
+        font-size: 17px;
+    }
+    .helping p{
+        padding: 10px;
+        font-size: 15px;
+    }
+    .helping i{
+        background-color: #434850;
+        padding: 7px;
+        border-radius: 10px;
+        margin-right: 10px;
+        font-size: 15px;
+    }
+
+
+    .warn{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+
+
     .bottom{
         display: block;
         justify-content: center;
@@ -338,13 +380,12 @@ nav{
         text-align: center;
         padding-left: 0;
         padding-right: 0;
-        height: 30vh;
+        height: auto;
     }
-    .bottom div{
-           margin-top: 30px;
+    .inf{
+        padding: 20px;
     }
     .bottom h1{
-      margin-top: 30px;
-      font-size: 15px;
+      padding: 30px; 
     }
 }
