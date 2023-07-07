@@ -68,7 +68,7 @@ nav{
 /*--------------------------------MainCubeTitle-------------------------------*/
 
 .topcont{
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
     margin-left: 30%;
     margin-right: 30%;
     height: 400px;
@@ -128,7 +128,7 @@ nav{
 
 .restartmess{
     margin-top: 50px;
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
     margin-left: 30%;
     margin-right: 30%;
     background-color:  #282b30;
@@ -191,7 +191,7 @@ nav{
 
 .restartstarting{
     margin-top: 50px;
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
     margin-left: 30%;
     margin-right: 30%;
     background-color:  #282b30;
@@ -203,7 +203,7 @@ nav{
 
 .restartfinish{
     margin-top: 50px;
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
     margin-left: 30%;
     margin-right: 30%;
     background-color:  #282b30;
@@ -216,7 +216,7 @@ nav{
 
 .restarting{
     margin-top: 50px;
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
     margin-left: 30%;
     margin-right: 30%;
     background-color:  #282b30;
@@ -242,15 +242,17 @@ nav{
 /*--------------------------------Bottom-------------------------------*/
 
 .bottom{
-    height: 20vh;
+    height: auto;
     background-color: black;
     display: flex;
     justify-content: space-between;
     padding-top: 50px;
     padding-left: 20%;
-    padding-right: 10%;
+    padding-right: 20%;
+    padding-bottom: 100px;
 }
 .bottom i{
+    padding: 0px 85px;
     color: white;
     font-size: 30px;
 }

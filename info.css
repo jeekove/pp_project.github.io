@@ -65,7 +65,7 @@ nav{
 }
 
 .infos{
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
     margin-left: 250px;
     margin-right: 250px;
     background-color:  #282b30;
@@ -92,6 +92,7 @@ nav{
     padding-top: 3px;
     color: #a0a0a0;
 }
+
 /*--------------------------------LevelUp-------------------------------*/
 
 .levelup{
@@ -145,6 +146,23 @@ nav{
     color: #ffff;
 }
 
+/*--------------------------------Howlvl-------------------------------*/
+
+.howlvl{
+    margin-left: 150px;
+    margin-right: 150px;
+    color: #ffff;
+    margin-top: 100px;
+    text-align: center;
+}
+.howlvl h2{
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.howlvl p{
+    color: rgb(219, 219, 219);
+    padding: 10px;
+}
 /*--------------------------------Helping-------------------------------*/
 
 .helping{
