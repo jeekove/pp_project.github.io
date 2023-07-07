@@ -27,6 +27,8 @@
             <h5>(Katt a szövegre)</h5>
             <h4><a onclick="scrollToHelping()">Hogyan kérhetek segitséget?</a></h4>
             <h5>(Katt a szövegre)</h5>
+            <h4><a onclick="scrollToHowlvl()">Honnan tudom hogy hányas szintű vagyok?</a></h4>
+            <h5>(Katt a szövegre)</h5>
           </div>
         </div>
         <div class="levelup" id="levelup-section">
@@ -48,10 +50,10 @@
               <div class="text">
                 <h2>Mi kell ahoz hogy szintet lépj?</h2>
                     <h3>Szintlépés text-ben</h3>
-                    <p><span>1. szint</span> -> level <span>3</span>-nak kell lenned a szerveren!</p>
-                    <p><span>2. szint</span> -> level <span>6</span>-nak kell lenned a szerveren!</p>
-                    <p><span>3. szint</span> -> level <span>14</span>-nek kell lenned a szerveren!</p>
-                    <p><span>4. szint</span> -> level <span>20</span>-nak kell lenned a szerveren!</p>
+                    <p><span>1. szint</span> -> level <span>1</span>-nek kell lenned a szerveren!</p>
+                    <p><span>2. szint</span> -> level <span>4</span>-nek kell lenned a szerveren!</p>
+                    <p><span>3. szint</span> -> level <span>8</span>-nak kell lenned a szerveren!</p>
+                    <p><span>4. szint</span> -> level <span>12</span>-nek kell lenned a szerveren!</p>
                     <h3>Szintlépés meghivással</h3>
                     <p><span>5</span> ember meghivássával megkapod a(z) <span>1. szintet</span></p>
                     <p><span>10</span> ember meghivássával megkapod a(z) <span>2. szintet</span></p>
@@ -62,6 +64,12 @@
               </div>
             </div>
         </div>
+        <div class="howlvl" id="howlvl-section">
+          <div class="howlvl"> 
+            <div class="text">
+              <h2>Hogyan ellenörizheted a szintedet?</h2>
+              <p>1. A chatbot szobába beirva azt hogy "!level" és megtudod hányas szintű a profilod.</p>
+              <p>2. Ha ellenörizted és elértél egy olyan szintet amiért jutalom jár akkor irj a supportnál és segitünk.</p>
         <div class="helping" id="helping-section">
             <h1>Segitségkérés</h1>
               <div class="help">
@@ -107,6 +115,13 @@
                   contactSection.classList.add("show");
                   contactSection.scrollIntoView({ behavior: 'smooth' });
              }
-        </script>        
+        </script>  
+                <script>
+                  function scrollToHowlvl() {
+                  var contactSection = document.getElementById("howlvl-section");
+                      contactSection.classList.add("show");
+                      contactSection.scrollIntoView({ behavior: 'smooth' });
+                 }
+            </script>        
 </body>
 </html>
